@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #ccc;
+}
+
+
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+#kuva {
+
+  float: right;
+  margin-right: 50px;
+}
+.harrastus_kuvat {
+  float: right;
+
+
+}
+.harrastus_kuvat::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rako{
+  padding-bottom: 20px;
+}
+
+.nappi {
+  width: 100%;
+  border: 0;
+  padding: 8px;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background: #ccc;
+  padding: 5px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.footer_kuvat{
+  float: right;
+  padding-right: 10px;
+  
+}
+
+@media (max-width: 600px) {
+
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
