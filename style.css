@@ -24,8 +24,9 @@ header {
 }
 .harrastus_kuvat {
   float: right;
-
-
+}
+.vali {
+  padding-bottom: 10px;
 }
 .harrastus_kuvat::after {
   content: "";
