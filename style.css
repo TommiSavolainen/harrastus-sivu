@@ -21,6 +21,7 @@ header {
 
   float: right;
   margin-right: 50px;
+  width: 150px;
 }
 .harrastus_kuvat {
   float: right;
@@ -91,4 +92,5 @@ footer {
     width: 100%;
     height: auto;
   }
+
 }
